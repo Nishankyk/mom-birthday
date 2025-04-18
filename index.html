@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Aunty</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="flipCard">
+            <div class="outside">
+                <h1>Happy Birthday Mom 🎉</h1>
+                <h3>Wishing you a day filled with love, laughter, and blessings. Your grace, kindness, and strength are truly inspiring. May the year ahead bring you nothing but happiness and good health! 💐🙏</h3>
+            </div>
+            <div class="inside">
+                <img src="cakegif.gif" alt="Birthday cake gif"/>
+                <h3>
+                    Happy Birthday mom🎂✨<br><br>
+                    you are my world 🌍 my love 💝 my life 🧬💗<br>
+                    my everything 💞 Be my forever ♾️💖 my rest of the life 💞<br><br>
+                    I LOVE YOU MUM 🤍💖❣💕💞❤💗💝🫂✨<br>
+                    Your Jiya
+                </h3>
+            </div>
+        </div>
+
+        <div class="block">
+            <div class="frames frame1">
+                <img src="img1.jpg" alt="Aunty Photo 1">
+                <p>Wishing you a life filled with smiles and peace 💖</p>
+            </div>
+            <div class="frames frame2">
+                <img src="img2.jpg" alt="Aunty Photo 2">
+                <p>Your kindness leaves a lasting glow on everyone’s heart 🌟</p>
+            </div>
+            <div class="frames frame3">
+                <img src="img3.jpg" alt="Aunty Photo 3">
+                <p>Today we celebrate the wonderful soul you are 🎉</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 👇 JavaScript to handle card flip on mobile/tap -->
+    <script>
+        const card = document.getElementById("flipCard");
+        card.addEventListener("click", () => {
+            card.classList.toggle("is-flipped");
+        });
+    </script>
+</body>
+</html>
